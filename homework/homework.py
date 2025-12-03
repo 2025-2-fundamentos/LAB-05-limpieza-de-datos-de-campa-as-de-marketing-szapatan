@@ -130,8 +130,8 @@ def clean_campaign_data():
 
     """
 
-    input="files\input"
-    output="files\output"
+    input="files/input"
+    output="files/output"
     create_folder(output)
     dfs=read_files(input)
     df=merge_dfs(dfs)
